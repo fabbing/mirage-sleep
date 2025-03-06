@@ -1,0 +1,5 @@
+(library
+ (name mirage_sleep_unikraft)
+ (public_name mirage-sleep.unikraft)
+ (implements mirage-sleep)
+ (optional))
