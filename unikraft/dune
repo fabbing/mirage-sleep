@@ -3,3 +3,8 @@
  (public_name mirage-sleep.unikraft)
  (implements mirage-sleep)
  (optional))
+
+(rule
+  (target mirage_sleep.ml)
+  (action
+    (copy ../solo5/mirage_sleep.ml %{target})))
